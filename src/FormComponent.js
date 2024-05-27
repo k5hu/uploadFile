@@ -1,8 +1,6 @@
 import React,{ useState } from "react";
 import {Button, FileInput, TextInput} from 'flowbite-react';
 import {nanoid} from 'nanoid';
-import AWS, { LexRuntime } from 'aws-sdk';
-const s3 = new AWS.S3();
 
 export default function FormComponent() {
   const [input, setInput] = useState("");
